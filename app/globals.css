@@ -2,26 +2,249 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.courses-paragraph {
+  width: 600px;
+}
+.extra-course-icon {
+  position: absolute;
+  bottom: -5px;
+  right: -100px;
+}
+.extra-courses-underline {
+  width: 543px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+.girl-img-container {
+  width: 800px;
+  height: 500px;
+  /* background-color: red; */
+}
+.heading-paragraph {
+  width: 592px;
+}
+.journey-paragraph-container {
+  width: 920px;
+  /* height: 77px; */
+}
+.journey-paragraph {
+  width: 720px;
+  /* height: 80px; */
+}
+.start-lucy-svg {
+  position: absolute;
+  right: -30px;
+  top: 62px;
+}
+.personalized-svg {
+  width: 480px;
+  height: 492px;
+}
+.community-img {
+  width: 584px;
+  height: 390px;
+}
+.cultural-img {
+  width: 720px;
+  height: 440px;
+}
+.menrorship-img,
+.language-img {
+  width: 720px;
+  height: 340px;
+}
+.language-img {
+  width: 890px;
+  height: 340px;
+}
+
+@media (max-width: 400px) {
+  .cultural-img {
+    width: 300px;
+    height: 280px;
+  }
+  .menrorship-img,
+  .language-img {
+    width: 300px;
+    height: 260px;
+  }
+}
+@media (max-width: 330px) {
+  .cultural-img {
+    width: 240px;
+    height: 250px;
+  }
+  .menrorship-img,
+  .language-img {
+    width: 240px;
+    height: 250px;
+  }
+}
+@media (max-width: 500px) {
+  .personalized-svg {
+    width: 400px;
+    height: 410px;
+  }
+}
+@media (max-width: 310px) {
+  .personalized-svg {
+    width: 220px;
+    height: 240px;
+  }
+  .community-img {
+    width: 220px;
+    height: 240px;
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@media (max-width: 400px) {
+  .personalized-svg {
+    width: 300px;
+    height: 310px;
+  }
+  .community-img {
+    width: 300px;
+    height: 310px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .journey-paragraph-container {
+    width: 830px;
+  }
+  .journey-paragraph {
+    width: 620px;
+  }
+}
+
+@media (max-width: 845px) {
+  .journey-paragraph-container {
+    width: 720px;
+  }
+  .journey-paragraph {
+    width: 520px;
+  }
+}
+@media (max-width: 768px) {
+  .journey-paragraph-container {
+    width: auto;
+  }
+  .journey-paragraph {
+    width: auto;
+  }
+}
+
+@media (max-width: 1536px) {
+  .heading-paragraph {
+    width: 500px;
+  }
+  .girl-img-container {
+    width: 800;
+    height: 600;
+  }
+}
+@media (max-width: 1276px) {
+  .heading-paragraph {
+    width: 400px;
+  }
+  .girl-img-container {
+    width: 700;
+    height: 450;
+  }
+}
+@media (max-width: 1024px) {
+  .heading-paragraph {
+    width: 592px;
+  }
+  .girl-img-container {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media (max-width: 624px) {
+  .heading-paragraph {
+    width: 450px;
+  }
+  .girl-img-container {
+    width: 450px;
+    height: 380px;
+  }
+}
+@media (max-width: 470px) {
+  .heading-paragraph {
+    width: 340px;
+  }
+  .girl-img-container {
+    width: 340px;
+    height: 320px;
+  }
+}
+@media (max-width: 355px) {
+  .heading-paragraph {
+    width: 320px;
+  }
+  .girl-img-container {
+    width: 320px;
+    height: 270px;
+  }
+}
+@media (max-width: 320px) {
+  .heading-paragraph {
+    width: 250px;
+  }
+  .girl-img-container {
+    width: 250px;
+    height: 210px;
+  }
+}
+
+@media (max-width: 550px) {
+  .extra-courses-underline {
+    width: 420px;
+  }
+}
+@media (max-width: 420px) {
+  .extra-courses-underline {
+    width: 300px;
+  }
+}
+@media (max-width: 320px) {
+  .extra-courses-underline {
+    width: 240px;
+  }
+}
+@media (max-width: 260px) {
+  .extra-courses-underline {
+    width: 150px;
+  }
+}
+
+@media (max-width: 1090px) {
+  .courses-paragraph {
+    width: 500px;
+  }
+}
+@media (max-width: 990px) {
+  .courses-paragraph {
+    width: 400px;
+  }
+}
+@media (max-width: 880px) {
+  .courses-paragraph {
+    width: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .courses-paragraph {
+    width: 400px;
+  }
+}
+@media (max-width: 515px) {
+  .courses-paragraph {
+    width: 400px;
+  }
+}
+@media (max-width: 415px) {
+  .courses-paragraph {
+    width: 100%;
+  }
 }
