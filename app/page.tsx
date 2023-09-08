@@ -244,7 +244,7 @@ export default function Home() {
                   />
                 </svg>
               </div>
-              <p className="text-[#1E1E1E] text-xl md:text-2xl font-normal leading-7">
+              <p className="text-[#1E1E1E] text-xl text-center md:text-2xl font-normal leading-7">
                 We offer live mentorship and coaching to help your child stay on
                 track and achieve their goals. This means that they can get
                 personalized attention and guidance to overcome any challenges
@@ -675,7 +675,7 @@ export default function Home() {
             />
 
             <p
-              className="text-[#1E1E1E] text-lg text-center sm:text-left smmd:text-xl md:text-2xl w-full sm:w-1/2"
+              className="text-[#1E1E1E] text-lg text-center smmd:text-xl md:text-2xl w-full sm:w-1/2"
               style={{ fontFamily: "Mona Sans, sans-serif" }}
             >
               We offer live mentorship and coaching to help your child stay on
